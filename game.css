@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    width: 640px;
+    /* margin: 0 auto; */
+}
+
+.row {
+    line-height: 0;
+}
+
+.empty, .wall, .rupee {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    outline: 2px solid black;
+}
+
+.wall {
+    background-color: seagreen;
+}
+
+.empty {
+    background-color: darkgray;
+}
+
+#hero {
+    width: 64px;
+    height: 64px;
+    /* background-color: tomato; */
+    position: absolute;
+    top: 64px;
+    left: 64px;
+    background-image: url(assets/sprites/zelda.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rupee {
+    background-color: darkgray;
+    background-image: url(assets/sprites/rupee.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#count {
+    padding: 20px;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 50px;
+    width: 600px;
+}
